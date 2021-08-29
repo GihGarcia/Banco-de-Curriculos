@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    padding: 8px;
+    border-bottom: 2px dashed white;
+}
+header ul li:hover {
+    cursor: pointer;
+}
+
+ul{ 
+    font-style: italic;
+    list-style: none;   
+}
+
+main{
+    border: thick double white;
+    background-color: rgba(129, 127, 127, 0.801);
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+.dadospessoais h1, h3{
+    text-align: center;
+    padding: 6px;
+    font-style: italic;
+
+}
+
+.nome, .cargo{
+    display: inline-block;
+    text-align: center;
+    margin-inline: 30px;
+    
+}
+
+.datanascimento, .sexo, .estadocivil{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-inline: 15px;
+}
+
+.cep, .endereco{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-inline: 30px;
+}
+
+.bairro,.cidade {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    margin-inline: 30px;
+}
+
+.email, .celular{
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    margin-inline: 30px;
+    margin-bottom: 20px;
+}
+
+.cpf, .rg{
+    display: inline-block;
+    text-align: center;
+    margin-inline: 30px;
+}
+
+input{
+    color:rgba(90, 13, 13, 0.801);
+    width: 200px;
+    border-color: rgba(129, 127, 127, 0.801);
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+select{
+    color:rgba(129, 127, 127, 0.801);
+    width: 110px;
+    border-radius: 5px;
+    padding: 2px;
+}
+option{color:rgba(129, 127, 127, 0.801)}
+
+button{
+    color:rgba(129, 127, 127, 0.801);
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-inline: 230px;
+}
+
+#success{
+    text-align: center;
+}
+#error{
+    text-align: center;
+}
+
+body{
+    background-image: url(./imagens/imagemfundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
